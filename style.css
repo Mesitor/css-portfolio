@@ -1,0 +1,170 @@
+body {
+    background-color: #000000;
+    color: #ffffffff;
+    height: 100vh;
+    font-family: "Cabin", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.border {
+    border-radius: 15%;
+}
+
+.margin-top-zero {
+    margin-top: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 5rem;
+    color: #ffbd59;
+}
+
+.subtitle-home {
+    margin-top: 0px;
+    font-size: 2rem;
+}
+
+.batman-icon {
+    margin-left: -90px;
+    margin-right: -130px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffbd59;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #ffbd59;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.grid-skills-container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    column-gap: 140px;
+    height: 750px;
+}
+
+.container.center {
+    column-gap: 70px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    column-gap: 140px;
+    height: 550px;
+}
+
+.grid-proyects-container {
+    display: grid;
+    grid-template: 170px 300px / 1fr 1fr;
+    column-gap: 140px;
+    height: 630px;
+}
+
+.bottom {
+    display: inline-block;
+    margin-top: 10px;
+    background: #ffbd59;
+    background-image: -webkit-linear-gradient(top, #faaa31, #ffa620);
+    background-image: -moz-linear-gradient(top, #faaa31, #ffa620);
+    background-image: -ms-linear-gradient(top, #faaa31, #ffa620);
+    background-image: -o-linear-gradient(top, #faaa31, #ffa620);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .grid-skills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 450px;
+        height: 920px;
+        row-gap: 10px;
+        padding: 0px;
+    }
+    
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 450px;
+        height: 720px;
+        row-gap: 10px;
+        padding: 0px;
+    }
+
+    .grid-proyects-container {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 900px;
+        row-gap: 10px;
+        padding: 0px;
+    }
+
+    #contact > div > img {
+        margin-top: 20px;
+    }
+
+    #about-me > div {
+        height: 650px;
+    }
+
+    .mondrian-text {
+        order: 1;
+    }
+
+    .img-mondrian {
+        order: 2;
+    }
+
+    .img-programming {
+        order: 1;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
